@@ -23,3 +23,25 @@ starting stats.*/
 console.log("Chad's current health is: " + currentHealth + " and his XP is " + experiencePoints);
 
 //Journal Prompt 1
+
+//Phase 2: Power Calculations (Arithmetic & Assignment Operators)
+//The game needs a way to calculate “Power Level.”
+
+//*Create a new variable called powerLevel.
+
+let powerLevel;
+
+//Calculate it using a formula: (currentHealth * 0.5) + (experiencePoints * 10).
+
+powerLevel = (currentHealth * 0.5) + (experiencePoints * 10);
+
+/*Now, simulate finding a “Health Potion.” Use compound assignment operators (like +=) to increase the currentHealth by 20 and the experiencePoints by 50.
+Update your console.log to show the new health and the updated power level.*/
+
+currentHealth += 20;
+experiencePoints += 50;
+
+powerLevel = (currentHealth * 0.5) + (experiencePoints * 10);
+console.log("Health is now " + currentHealth + " and XP is now " + experiencePoints + "." + " Power level is at " + powerLevel + ".");
+
+//Journal Prompt 2
