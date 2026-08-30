@@ -64,3 +64,39 @@ for (let dayCount = 0; dayCount < 5; dayCount++) {
 console.log("Chad's XP is holding at a " + experiencePoints + "...for now.");
 
 //Journal Prompt 3
+
+//Phase 4: The Victory Check (Comparison)
+//The game needs to decide if the player wins or loses based on their health.
+
+/*At the end of the script, create a new loop to fight the final boss
+Set up some hp for the boss before the loop*/
+
+let boss = "GigaChad";
+let bossHP = 80;
+
+while (currentHealth > 0 && bossHP > 0) {
+    
+    //Make sure the hero gets damaged inside the loop
+    currentHealth -= 15;
+
+    //Make sure the boss gets damaged inside the loop
+    bossHP -= 10;
+
+    //End the loop when one is defeated
+}
+
+/*After the loop, declare the winner (you may want to use an if statement here)
+It's possible that they both knock each other out here as well.*/
+
+if (currentHealth > 0 && bossHP <= 0) {
+    console.log(boss + " has been defeated. " + characterName + " wins!")
+}
+else if (bossHP > 0 && currentHealth <= 0 ) {
+        console.log("Chad has been defeated. " + boss + " wins!")
+    }
+
+else {
+    console.log("Well, this is awkward..you've just knocked each other out.")
+}
+
+//Journal Prompt 4

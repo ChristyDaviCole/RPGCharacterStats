@@ -6,3 +6,6 @@ It made it to where I had to type out less characters instead of the full expres
 
 Journal Prompt 3: What is the purpose of a loop in this scenario? How would the code differ if you had to simulate 100 days of training instead of 5?
 The loop repeats automatically for the number of days/times specified. The code would differ in that I'd put 100 in the parenthesis instead of 5. A lot more lines would be automatically printed to the console if it repeated 100 times.
+
+Journal Prompt 4: What kind of loop did you use here? How do you think it works in this scenario compared to other loops?
+A while loop. This loop runs until the conditions specified are no loger true. It repeats so long as Chad and GigaChad both have health stats that are greater than 0.
