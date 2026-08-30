@@ -45,3 +45,22 @@ powerLevel = (currentHealth * 0.5) + (experiencePoints * 10);
 console.log("Health is now " + currentHealth + " and XP is now " + experiencePoints + "." + " Power level is at " + powerLevel + ".");
 
 //Journal Prompt 2
+
+//Phase 3: Training Montage (Loops)
+//Instead of manually updating numbers, we will now use loops to simulate the passage of time and effort.
+
+//The hero decides to train for 5 days. Create a for loop that runs 5 times.
+
+for (let dayCount = 0; dayCount < 5; dayCount++) {
+    
+    //Inside the loop, increase experiencePoints by 20 for each day of training.
+    experiencePoints += 20;
+
+    //Use console.log inside the loop to print a message like "Day X: Training hard... XP is now Y".
+    console.log("Day " + (dayCount + 1) + ": Moving some major lbs...XP is now " + experiencePoints);
+}
+
+//After the loop finishes, print the final total of experiencePoints.
+console.log("Chad's XP is holding at a " + experiencePoints + "...for now.");
+
+//Journal Prompt 3
